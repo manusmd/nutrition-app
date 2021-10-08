@@ -1,9 +1,9 @@
 import "./tracking-card.css";
-import tabs from "./tracking-card.html";
+import tracking from "./tracking-card.html";
 
 export default {
-  title: "Components/tracking-card",
+  title: "Components/Tracking Card",
   parameters: { layout: "centered" },
 };
 
-export const favorites = () => tracking-card;
+export const trackingC = () => tracking;
