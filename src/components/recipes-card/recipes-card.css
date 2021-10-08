@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap");
+
+.recipes-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 7.5rem;
+  place-items: center;
+  padding: 1.75rem 2rem 1.75rem 2rem;
+  border-radius: 1rem;
+  background-color: #eff7ee;
+}
+
+.recipes-card__text {
+  line-height: 1.3rem;
+  margin-left: 1.3rem;
+}
+
+.recipes-card__text-kcal {
+  color: #6cb663;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.recipes-card__text-title {
+  color: #2e2e2e;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.recipes-card__text-ingredients {
+  color: #767676;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+.recipes-card__heart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
