@@ -1,0 +1,50 @@
+.navigation-bar--default {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 3em;
+  /* background-color: lightgrey; */
+  place-items: center;
+}
+
+.navigation-bar__home {
+  fill: white;
+}
+
+.navigation-bar__search {
+  fill: white;
+}
+
+.navigation-bar__scanCircle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  display: grid;
+  place-items: center;
+}
+
+.navigation-bar__scan path {
+  /*   padding: 5rem; */
+  fill: white;
+}
+
+.navigation-bar__favorites {
+  fill: white;
+}
+
+.navigation-bar__profile {
+  fill: white;
+}
+
+.navigation-bar--home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 3em;
+  /* background-color: lightgrey; */
+  place-items: center;
+}
+
+.navigation-bar__home--selected {
+  fill: var(--color-primary);
+  border: white;
+}
